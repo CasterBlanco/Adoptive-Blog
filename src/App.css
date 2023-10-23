@@ -1866,6 +1866,7 @@ nav .e {
 }
 
 .menu-btn {
+  display: block;
   border: #0266FF 3px solid;
   width: 45px;
   height: 45px;
@@ -1873,8 +1874,9 @@ nav .e {
   bottom: 5px;
   margin-left: 300px;
   position: fixed;
-  margin-bottom: 600px;
+  top: 20px;
   z-index: 1000; 
+  
 }
 
 .burger {
@@ -2805,3 +2807,9 @@ left: 300px;
 
 }
 
+@media  (max-width: 620px){
+  .menu-btn {
+    margin-bottom: 600px;
+    position: fixed;
+  }
+}
