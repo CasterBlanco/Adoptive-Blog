@@ -22,7 +22,6 @@ import { Link } from "react-router-dom";
 import { useCommentContext } from '../Components/CommentContext';
 import { useHeartContext } from "../Components/HeartContext";
 import React, { useState } from 'react';
-import { useEffect } from 'react';
 
 
 function Logo() {
@@ -142,7 +141,7 @@ function Logo() {
       text: "ARMY, you were absolutely amazing tonight at our concert! We felt your love and energy the whole time and it was an unforgettable experience. We can't wait to come back and perform for you all again. Thank you for making this night so special. 💜❤️",
       date: 'July 13 2022',
       author: 'MLS Official',
-      commentLink: '/comment07',
+      commentLink: '/comment08',
       commentCount: commentCounts['blog-9'],
       heartCount: heartCounts['heart-9'],
     },
@@ -155,7 +154,7 @@ function Logo() {
       text: "We're so excited to share our latest album with all of our amazing fans! We've been working hard on this one and can't wait for you to hear it 🎶 #KpopMusic #NewAlbum",
       date: 'August 2 2023',
       author: 'ECNO',
-      commentLink: '/comment07',
+      commentLink: '/comment09',
       commentCount: commentCounts['blog-10'],
       heartCount: heartCounts['heart-10'],
     },
@@ -168,7 +167,7 @@ function Logo() {
       text: "No matter what anyone says always stay true to who you are and what you believe in. That's the key to success and happiness 💪 #KpopInspiration #BeYourself",
       date: 'December 12 2023',
       author: 'AY',
-      commentLink: '/comment07',
+      commentLink: '/comment10',
       commentCount: commentCounts['blog-11'],
       heartCount: heartCounts['heart-11'],
     },
@@ -181,7 +180,7 @@ function Logo() {
       text: "It's been a busy year, but we're finally taking some time to relax and recharge on a beautiful beach ☀️ #KpopVacation #BeachVibes",
       date: 'June 27 2023',
       author: 'Blue Cotton',
-      commentLink: '/comment07',
+      commentLink: '/comment11',
       commentCount: commentCounts['blog-12'],
       heartCount: heartCounts['heart-12'],
     },
@@ -194,7 +193,7 @@ function Logo() {
       text: "Thank you to all of our amazing fans for showing us so much love and support! We couldn't do this without you ❤️ #KpopLove #FanArmy",
       date: 'April 14 2023',
       author: 'MLS',
-      commentLink: '/comment07',
+      commentLink: '/comment12',
       commentCount: commentCounts['blog-13'],
       heartCount: heartCounts['heart-13'],
     },
@@ -207,7 +206,7 @@ function Logo() {
       text: "One of my favorite childhood memories is when my mom surprised me with my first teddy bear! It was a big, fluffy bear that I immediately fell in love with. I used to take it everywhere with me, and even slept with it every night. It's amazing how something so simple can bring so much joy and comfort. What are some of your favorite childhood memories? 🌟🌈",
       date: 'May 24, 2023',
       author: 'Minoo from DARKPINK',
-      commentLink: '/comment07',
+      commentLink: '/comment14',
       commentCount: commentCounts['blog-14'],
       heartCount: heartCounts['heart-14'],
     },
@@ -220,7 +219,7 @@ function Logo() {
       text: "Lately, I've been experimenting with some new sounds and styles in the studio and it's been so much fun! It's important to keep growing as an artist and challenging yourself creatively. I can't wait for you all to hear what I've been working on 🔥🎧",
       date: 'June 3, 2023',
       author: 'LN from MLS',
-      commentLink: '/comment07',
+      commentLink: '/comment15',
       commentCount: commentCounts['blog-15'],
       heartCount: heartCounts['heart-15'],
     },
@@ -233,7 +232,7 @@ function Logo() {
       text: "Just feeling cute today! Hope everyone is having a good day 💜",
       date: 'June 22, 2023',
       author: 'Nisoo from DARKPINK',
-      commentLink: '/comment07',
+      commentLink: '/comment16',
       commentCount: commentCounts['blog-16'],
       heartCount: heartCounts['heart-16'],
     },
@@ -246,7 +245,7 @@ function Logo() {
       text: "Can't wait for you all to hear our new album! Stay tuned 😎",
       date: 'August 8, 2023',
       author: 'LN from MLS',
-      commentLink: '/comment07',
+      commentLink: '/comment17',
       commentCount: commentCounts['blog-17'],
       heartCount: heartCounts['heart-17'],
     },
@@ -259,7 +258,7 @@ function Logo() {
       text: "Practicing hard for our upcoming tour! Can't wait to see all of our fans 😘",
       date: 'September 1, 2023',
       author: 'Raymond from...',
-      commentLink: '/comment07',
+      commentLink: '/comment8',
       commentCount: commentCounts['blog-18'],
       heartCount: heartCounts['heart-18'],
     },
@@ -272,7 +271,7 @@ function Logo() {
       text: "Decided to change things up with a new hairstyle! What do you all think? 😊",
       date: 'October 13, 2023',
       author: 'Nelson Lang from...',
-      commentLink: '/comment07',
+      commentLink: '/comment19',
       commentCount: commentCounts['blog-19'],
       heartCount: heartCounts['heart-19'],
     },
@@ -285,7 +284,7 @@ function Logo() {
       text: "Life's too short, so why not treat yourself to some ice cream today? 😜",
       date: 'November 3, 2023',
       author: 'Mandy from Blue...',
-      commentLink: '/comment07',
+      commentLink: '/comment20',
       commentCount: commentCounts['blog-20'],
       heartCount: heartCounts['heart-20'],
     },
@@ -293,9 +292,7 @@ function Logo() {
   const [showFavorites, setShowFavorites] = useState(false);
  
 
-  const toggleAllFavorites = () => {
-    setShowFavorites((prevShowFavorites) => !prevShowFavorites);
-  };
+ 
 
   const filteredItems = showFavorites
   ? items.filter((item) => heartStates[item.heartId])
