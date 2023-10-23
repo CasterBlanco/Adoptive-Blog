@@ -2634,7 +2634,6 @@ li {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    padding-right: 4px;
 
   }
   
@@ -2646,6 +2645,8 @@ li {
   .in {
     margin-left: 10px;
     margin-top: 9px;
+    padding-right: 4px;
+
   }
   
   
@@ -2662,8 +2663,6 @@ li {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    padding-right: 4px;
-
   }
   
   .svg-container2:hover {
@@ -2675,6 +2674,7 @@ li {
     fill: white;
     margin-top: 7px;
     margin-left: 8px;
+    padding-right: 4px;
   }
   
   .svg-container3{
@@ -2682,8 +2682,6 @@ li {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    padding-right: 4px;
-
   }
   
   .svg-container3:hover {
@@ -2695,6 +2693,7 @@ li {
     fill: white;
     margin-top: 7px;
     margin-left: 7px;
+    padding-right: 4px;
   }
   
   .svg-container4{
@@ -2722,8 +2721,6 @@ li {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    padding-right: 4px;
-
   }
   
   .svg-container5:hover {
@@ -2735,6 +2732,7 @@ li {
     fill: white;
     margin-top: 8px;
     margin-left: 8px;
+    padding-right: 4px;
   }
   
   .svg-container6{
@@ -2742,8 +2740,6 @@ li {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    padding-right: 4px;
-
   }
   
   .svg-container6:hover {
@@ -2755,6 +2751,7 @@ li {
     fill: white;
     margin-top: 6px;
     margin-left: 7px;
+    padding-right: 4px;
   }
   
   .svg-container7{
@@ -2762,8 +2759,6 @@ li {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    padding-right: 4px;
-
   }
   
   .svg-container7:hover {
@@ -2775,6 +2770,7 @@ li {
     fill: white;
     margin-top: 8.7px;
     margin-left: 11px;
+    padding-right: 4px;
   }
 }
 
