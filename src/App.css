@@ -2475,7 +2475,6 @@ li {
 
 .follow{
   color: white;
-  margin-left: -40px;
 }
 
 .policy {
@@ -2616,6 +2615,142 @@ li {
   fill: white;
   margin-top: 8.7px;
   margin-left: 11px;
+}
+
+@media (min-width:620px) {
+  .svg-container{
+    background-color: #192140;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .svg-container:hover {
+    background-color: #0266FF;
+    cursor: pointer;
+  }
+  
+  .in {
+    margin-left: 10px;
+    margin-top: 9px;
+  }
+  
+  
+  .socMed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    gap: 20px;
+  }
+  
+  .svg-container2{
+    background-color: #192140;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .svg-container2:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .ig{
+    fill: white;
+    margin-top: 7px;
+    margin-left: 8px;
+  }
+  
+  .svg-container3{
+    background-color: #192140;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .svg-container3:hover {
+    background-color: #0266FF;
+    cursor: pointer;
+  }
+  
+  .fb {
+    fill: white;
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+  
+  .svg-container4{
+    background-color: #192140;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .svg-container4:hover {
+    background-color: #0266FF;
+    cursor: pointer;
+  }
+  
+  .tweet {
+    fill: white;
+    margin-top: 7px;
+    margin-left: 8.4px;
+  }
+  
+  .svg-container5{
+    background-color: #192140;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .svg-container5:hover {
+    background-color: #02ff89;
+    cursor: pointer;
+  }
+  
+  .viber {
+    fill: white;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+  
+  .svg-container6{
+    background-color: #192140;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .svg-container6:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .tiktok {
+    fill: white;
+    margin-top: 6px;
+    margin-left: 7px;
+  }
+  
+  .svg-container7{
+    background-color: #192140;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .svg-container7:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  
+  .play {
+    fill: white;
+    margin-top: 8.7px;
+    margin-left: 11px;
+  }
 }
 
 .addPost {
