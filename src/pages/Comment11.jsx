@@ -89,7 +89,7 @@ const handleCommentButtonClick = () => {
           ) : (
             <React.Fragment>
       <Breadcrumbs />
-        <div className="ourFirst2">
+        <div className="ourFirst">
             <h1>Taking a Break 🏖️</h1>
             <div className="comment-creator">
                 <img className="comment-avatar" src={B1} alt="" />
