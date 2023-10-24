@@ -258,7 +258,7 @@ function Logo() {
       text: "Practicing hard for our upcoming tour! Can't wait to see all of our fans 😘",
       date: 'September 1, 2023',
       author: 'Raymond from...',
-      commentLink: '/comment8',
+      commentLink: '/comment18',
       commentCount: commentCounts['blog-18'],
       heartCount: heartCounts['heart-18'],
     },
